@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Styling for the entire webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    /* Background color of the entire page */
+
+    background-image: url('images/v.jpeg');
+    /* Replace 'v.jpeg' with your image file path */
+    background-size: cover;
+    /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-attachment: fixed;
+    /* Fixed background for scrolling content */
+}
+
+/* Styling for the code editor container */
+.code-editor {
+    max-width: 800px;
+    /* Maximum width of the code editor container */
+    margin: 0 auto;
+    /* Center the container horizontally on the page */
+    padding: 20px;
+    background-color: #fffafa;
+    /* Background color inside the code editor container */
+    border: 1px solid #cccccc;
+    /* Border around the container */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Shadow effect for the container */
+    background-image: url(images/b.jpeg);
+    /* Replace 'b.jpeg' with your image file path */
+}
+
+/* Styling for the toolbar within the code editor */
+.code-editor .toolbar {
+    display: flex;
+    /* Display buttons side by side */
+    justify-content: space-between;
+    /* Space between buttons */
+    margin-bottom: 10px;
+    /* Margin at the bottom of the toolbar */
+}
+
+/* Styling for buttons within the toolbar */
+.code-editor .toolbar .button {
+    background-color: #008cba;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    /* Remove button border */
+    padding: 5px 10px;
+    /* Padding inside the button */
+    cursor: pointer;
+    font-size: 18px;
+    /* Button text size */
+    border-radius: 5px;
+    /* Rounded button corners */
+    margin: 30px auto;
+    /* Center the buttons horizontally */
+    text-align: center;
+    /* Center-align button text */
+    display: block;
+    /* Display buttons as block elements */
+}
+
+/* Styling for the code textarea */
+.code-editor .code {
+    color: #fff;
+    /* Text color within the code editor */
+    width: 774px;
+    /* Width of the code input area */
+    min-height: 300px;
+    /* Minimum height of the code input area */
+    border: 2px solid rgb(0, 0, 0);
+    /* Border around the code input area */
+    font-family: monospace;
+    /* Monospace font for code formatting */
+    padding: 10px;
+    /* Padding inside the code input area */
+    white-space: pre-wrap;
+    /* Preserve line breaks and wrap text */
+    background-color: #000000;
+    /* Background color inside the code input area */
+}
